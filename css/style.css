@@ -14,7 +14,6 @@ body{
 .card{
     width: calc(1000px / 3 - 34px);
     height: 400px;
-    border: 1px solid black;
     border-radius: 1px;
     display: inline-block;
     margin: 10px 15px;
@@ -31,6 +30,9 @@ body{
     top: 15px;
     font-size: 30px;
     padding: 0 10px;
+}
+.hearts:hover{
+    color: red;
 }
 .sale{
     position: absolute;
@@ -58,8 +60,18 @@ body{
 }
 .sconto{
     color: red;
+    font-weight: bold;
 }
 .primo-prezzo{
     text-decoration: line-through;
+}
+.card:hover .img1{
+    display: none;
+}
+.card .img2{
+    display: none;
+}
+.card:hover .img2{
+    display: inline-block;
 }
 
