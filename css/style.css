@@ -65,6 +65,15 @@ body{
 .primo-prezzo{
     text-decoration: line-through;
 }
+.prezzi:hover .primo-prezzo{
+    display: none;
+}
+.secondo-prezzo{
+    display: none;
+}
+.prezzi:hover .secondo-prezzo{
+    display: inline;
+}
 .card:hover .img1{
     display: none;
 }
